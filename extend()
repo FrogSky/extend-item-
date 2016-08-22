@@ -22,7 +22,7 @@ Var result=$.extend({},item,item1);
 结果：
 
 Result={name:”Momo”,age:23,sex:”gril”};
-
+ 
 说明：
 
 以上的结果表明extend方法将所有的项都合并到了{}中，但是，细心一点就会发现，其中item1中的name：“Momo” 将item中的name：“olive”给覆盖了，这是怎么回事？请接着往下看。
